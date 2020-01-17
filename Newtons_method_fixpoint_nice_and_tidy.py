@@ -41,7 +41,6 @@ method_iter = iter(method)
 #Gjør kall til funksjoner som utfører eksperimenter her
 N=0
 for i in method:
-    print(N)
     N +=1
     answer, it = type_of_iteraton(f_Newton, f_fikspt, x0, tol, next(method_iter))
     #print(answer)
